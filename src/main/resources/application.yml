@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://test-api:0jPMl4bsK2sVVk0W@cluster0-shard-00-02.6tvot.mongodb.net:27017,cluster0-shard-00-01.6tvot.mongodb.net:27017,cluster0-shard-00-00.6tvot.mongodb.net:27017/test-master?authSource=admin&replicaSet=atlas-aw0lrw-shard-0&readPreference=primary&ssl=true
+      database: test-master

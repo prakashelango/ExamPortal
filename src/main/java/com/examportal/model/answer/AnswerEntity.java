@@ -5,13 +5,13 @@ import com.examportal.model.department.DepartmentEntity;
 import com.examportal.model.question.QuestionEntity;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.jpa.domain.AbstractAuditable;
+
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "answer")
 @Data
-public class AnswerEntity extends AbstractAuditable {
+public class AnswerEntity {
     @Id
     private String id;
     @DBRef
